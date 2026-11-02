@@ -1,0 +1,102 @@
+# API call for adding two numbers
+###
+post http://127.0.0.1:8000/addition/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":25
+}
+###
+post http://127.0.0.1:8000/subtraction/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":25
+}
+
+###
+post http://127.0.0.1:8000/multiplication/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":25
+}
+
+###
+post http://127.0.0.1:8000/division/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":25
+}
+
+###
+post http://127.0.0.1:8000/modulus/
+Content-Type: application/json
+
+{
+    "num1":100,
+    "num2":25
+}
+
+###
+post http://127.0.0.1:8000/BMI/
+Content-Type: application/json
+
+{
+    "height":1.60,
+    "weight":60
+}
+
+###
+post http://127.0.0.1:8000/age/
+Content-Type: application/json
+
+{
+    "birth_year":2000,
+    "current_year":2026
+}
+
+###
+post http://127.0.0.1:8000/percentage/
+Content-Type: application/json
+
+{
+    "obtained_mark":300,
+    "total_mark":500
+}
+
+###
+post http://127.0.0.1:8000/area/
+Content-Type: application/json
+
+{
+    "length":20,
+    "breadth":10
+}
+
+###
+post http://127.0.0.1:8000/simple_interest/
+Content-Type: application/json
+
+{
+    "principal":10000,
+    "rate":5,
+    "time":2
+    
+}
+
+###
+post http://127.0.0.1:8000/Bill/
+Content-Type: application/json
+
+{
+    "units":150,
+    "rate":6,
+
+    
+}
